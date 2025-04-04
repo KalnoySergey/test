@@ -1,0 +1,31 @@
+name: camera_test_task
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.11.0
+  image_picker: ^1.1.2
+  path_provider: ^2.1.4
+  gallery_saver_plus: ^3.2.4
+  android_intent_plus: ^5.3.0
+
+dev_dependencies:
+  flutter_test:
+
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.14.3
+
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+  image_path: "icon.png"
+  android: true
+  ios: false
